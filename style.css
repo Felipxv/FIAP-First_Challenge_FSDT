@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ebebeb;
+  color: #333;
+}
+
+/* HEADER */
+.hero {
+  background-color: #111111;
+  padding: 80px 0 120px;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.hero-content h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+}
+
+.hero-content .subtitle {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* MAIN */
+.main-content {
+  max-width: 600px;
+  margin: -60px auto 0;
+  padding: 0 40px 80px;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* CARD */
+.form-card {
+  background-color: #fafafa;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 40px 44px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-card h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2d2d4e;
+  margin-bottom: 8px;
+}
+
+/* FIELDS */
+.field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field-group label {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.field-group input,
+.field-group textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  background-color: #fafafa;
+  font-size: 0.9rem;
+  color: #333;
+  outline: none;
+  transition: border-color 0.2s;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.field-group input:focus,
+.field-group textarea:focus {
+  border-color: #aaa;
+}
+
+/* BUTTON */
+#submitBtn {
+  width: 100%;
+  padding: 18px;
+  background-color: #e02020;
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+#submitBtn:hover {
+  background-color: #c51a1a;
+}
+
+#submitBtn:active {
+  transform: scale(0.99);
+}
+
+/* FEEDBACK */
+.feedback {
+  text-align: center;
+  font-size: 0.875rem;
+  min-height: 20px;
+}
+
+.feedback.success {
+  color: #2e7d32;
+}
+
+.feedback.error {
+  color: #c62828;
+}

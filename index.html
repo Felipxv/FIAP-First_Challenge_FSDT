@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FIAP - First Challenge FSDT</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h1>POSTECH - FULLSTACK</h1>
+      <p class="subtitle">Desafio aula inaugural</p>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="form-wrapper">
+      <div class="form-card">
+        <h2>Informações do grupo</h2>
+
+        <div class="field-group">
+          <label for="name1">Nome</label>
+          <input type="text" id="name1" placeholder="" />
+        </div>
+
+        <div class="field-group">
+          <label for="name2">Nome</label>
+          <input type="text" id="name2" placeholder="" />
+        </div>
+
+        <div class="field-group">
+          <label for="name3">Nome</label>
+          <input type="text" id="name3" placeholder="" />
+        </div>
+
+        <div class="field-group">
+          <label for="name4">Nome</label>
+          <input type="text" id="name4" placeholder="" />
+        </div>
+
+        <div class="field-group">
+          <label for="history">História do grupo</label>
+          <textarea id="history" rows="6" placeholder=""></textarea>
+        </div>
+      </div>
+
+      <button id="submitBtn" onclick="handleSubmit()">Enviar</button>
+      <p id="feedback" class="feedback"></p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
