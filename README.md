@@ -35,7 +35,8 @@ Os dados são enviados para o seguinte endpoint:
 📂 **Estrutura do Projeto**  
 - `index.html`  
 - `style.css`  
-- `script.js`  
+- `script.js`
+- `README.md` 
 
 ---
 
