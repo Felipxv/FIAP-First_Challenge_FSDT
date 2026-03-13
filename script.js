@@ -9,8 +9,14 @@ async function handleSubmit() {
 
   const names = [name1, name2, name3, name4].filter(name => name !== '');
 
-  if (names.length === 0 || history === '') {
-    feedback.textContent = 'Por favor, preencha pelo menos um nome e a história do grupo.';
+  if (names.length === 0) {
+    feedback.textContent = 'Por favor, preencha pelo menos um nome do grupo!';
+    feedback.className = 'feedback error';
+    return;
+  }
+
+  if (history === '') {
+    feedback.textContent = 'Por favor, preencha a história do grupo!';
     feedback.className = 'feedback error';
     return;
   }
